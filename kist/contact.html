@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Contact Us – Knowledge Institute of Science & Technology</title>
+  <!-- Google Fonts + Bootstrap + Icons + AOS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="images/logo.jpeg" alt="KIST Logo" class="logo-img" onerror="this.src='https://placehold.co/70x70?text=KIST'">
+        <span class="logo-text">KIST</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="academic.html" class="nav-link">Academics</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><i class="bi bi-list"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== PAGE TITLE WITH BACKGROUND IMAGE ========== -->
+<section class="page-title-section" style="background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('images/cont2.jpg'); background-size: cover; background-position: center;">
+  <div class="container text-center" data-aos="fade-up">
+    <h1>Get in Touch</h1>
+    <p class="lead">We're here to help. Reach out to us for any inquiries.</p>
+  </div>
+</section>
+
+<!-- ========== CONTACT INFO CARDS ========== -->
+<section class="contact-info-section py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="contact-card text-center">
+          <i class="bi bi-telephone fs-1 text-gold"></i>
+          <h3>Hotlines</h3>
+          <p>0925214746</p>
+          <p>0923309294</p>
+          <p>0920079895</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-card text-center">
+          <i class="bi bi-envelope fs-1 text-gold"></i>
+          <h3>Emails</h3>
+          <p>admissionknowledgeinstitute@gmail.com</p>
+          <p>wikiss886@gmail.com</p>
+          <p><strong class="text-gold">partnerkist@gmail.com</strong> <span class="badge bg-gold text-dark">Partnership</span></p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="contact-card text-center">
+          <i class="bi bi-geo-alt fs-1 text-gold"></i>
+          <h3>Location</h3>
+          <p>Jebel, near Revenue Authority</p>
+          <p>Juba, South Sudan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT FORM & MAP ========== -->
+<section class="contact-form-map py-5 bg-soft-light">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="form-container">
+          <h3>Send Us a Message</h3>
+          <p>Have a question? Fill out the form and we'll get back to you soon.</p>
+          <form id="contactForm" class="row g-4">
+            <div class="col-md-6">
+              <label class="form-label">Your Name *</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Your Email *</label>
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Enter your phone number">
+            </div>
+            <div class="col-12">
+              <label class="form-label">Subject *</label>
+              <select class="form-select" required>
+                <option value="">Select a subject</option>
+                <option>Admissions Inquiry</option>
+                <option>Course Information</option>
+                <option>Fee Structure</option>
+                <option>Scholarship Information</option>
+                <option>Partnership Inquiry</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Your Message *</label>
+              <textarea class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-gold w-100">Send Message <i class="bi bi-send"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="map-container">
+          <h3>Visit Our Campus</h3>
+          <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.123456789!2d31.600000!3d4.850000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTEnMDAuMCJOIDMxwrAzNiczMC4wIkU!5e0!3m2!1sen!2s!4v1234567890!5m2!1sen!2s" width="100%" height="300" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="location-details mt-4">
+            <p><i class="bi bi-geo-alt-fill text-gold"></i> <strong>Jebel Campus (Main Branch):</strong> Near Revenue Authority, along National Revenue Authority Road</p>
+            <p><i class="bi bi-book-fill text-gold"></i> <strong>Mangateen Campus:</strong> Academic and examination center</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ SECTION ========== -->
+<section class="faq-section py-5">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                When is the next intake?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show">
+              <div class="accordion-body">May and July intakes are available.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Do you offer distance learning?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse">
+              <div class="accordion-body">Yes, both on-campus and distance learning are available.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                What are the fees?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse">
+              <div class="accordion-body">Health Sciences: 450,000 SSP per semester. Management Sciences: 350,000 SSP per semester.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Can foreign students apply?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse">
+              <div class="accordion-body">Yes, with certificate fully authenticated.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA SECTION ========== -->
+<section class="cta-banner">
+  <div class="container text-center">
+    <h2>Ready to Start Your Journey?</h2>
+    <p class="lead">Contact us today to begin your educational journey at KIST</p>
+    <a href="admissions.html" class="btn-gold btn-lg me-3">Apply Now <i class="bi bi-arrow-right"></i></a>
+    <a href="tel:0925214746" class="btn-outline-light-custom">Call Now</a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <h5>Knowledge Institute of Science & Technology</h5>
+        <p>Providing quality education in Health and Management Sciences.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/nextstep211" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5>For Students</h5>
+        <ul>
+          <li><a href="academic.html">Academic Programs</a></li>
+          <li><a href="#">Scholarships</a></li>
+          <li><a href="#">Student Portal</a></li>
+          <li><a href="mailto:partnerkist@gmail.com?subject=Donation%20Inquiry" class="donation-link"><i class="bi bi-heart-fill text-gold me-2"></i>Make a Donation</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mb-4">
+        <h5>Contact Info</h5>
+        <ul class="contact-list">
+          <li><i class="bi bi-telephone"></i> 0925214746 / 0923309294 / 0920079895</li>
+          <li><i class="bi bi-envelope"></i> admissionknowledgeinstitute@gmail.com</li>
+          <li><i class="bi bi-geo-alt"></i> Jebel, Near Revenue Authority, Juba, South Sudan</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p>© 2026 Knowledge Institute of Science & Technology. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+<script>
+  AOS.init({ duration: 800, once: true });
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your message! We will get back to you within 24 hours.');
+    this.reset();
+  });
+</script>
+</body>
+</html>

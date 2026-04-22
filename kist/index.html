@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>KIST | Home – Knowledge Institute of Science & Technology</title>
+  <!-- Google Fonts + Bootstrap + Icons + AOS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="images/logo.jpeg" alt="KIST Logo" class="logo-img" onerror="this.src='https://placehold.co/70x70?text=KIST'">
+        <span class="logo-text">KIST</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="academic.html" class="nav-link">Academics</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="faculty.html" class="nav-link">Faculty</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu"><i class="bi bi-list"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== HERO SECTION WITH BACKGROUND IMAGES ========== -->
+<section class="hero-section">
+  <!-- Background Images Slider -->
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('images/back1.jpeg');"></div>
+    <div class="slide" style="background-image: url('images/back2.jpeg');"></div>
+    <div class="slide" style="background-image: url('images/back00.jpeg');"></div>
+    <div class="slide" style="background-image: url('images/back7.jpeg');"></div>
+  </div>
+  <!-- Clean overlay for text readability (same style as Contact page) -->
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Welcome to Knowledge Institute of Science & Technology <span class="highlight">(KIST)</span></h1>
+      <p class="hero-subheadline">Empowering the Next Generation of Leaders in Juba and Beyond</p>
+      <div class="hero-buttons">
+        <a href="admissions.html" class="btn-gold">Apply for May Intake <i class="bi bi-arrow-right"></i></a>
+        <a href="courses.html" class="btn-outline-primary-custom">Explore Our Courses <i class="bi bi-book"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- Slider Navigation Dots -->
+  <div class="slider-dots">
+    <span class="dot active" data-slide="0"></span>
+    <span class="dot" data-slide="1"></span>
+    <span class="dot" data-slide="2"></span>
+    <span class="dot" data-slide="3"></span>
+  </div>
+</section>
+
+<!-- ========== INTRO TEXT ========== -->
+<section class="intro-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center" data-aos="fade-up">
+        <p class="intro-text lead">At KIST, we provide high-quality, accessible education designed to equip students with practical skills and professional knowledge. Whether you aim to build a career in healthcare or management, KIST offers the training and support you need to succeed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== QUICK INFO SECTION ========== -->
+<section class="quick-info-section py-4 bg-soft-light">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-md-3 col-6" data-aos="fade-up">
+        <div class="info-card">
+          <i class="bi bi-geo-alt fs-2 text-gold"></i>
+          <h5>Location</h5>
+          <p>Juba, South Sudan</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="50">
+        <div class="info-card">
+          <i class="bi bi-telephone fs-2 text-gold"></i>
+          <h5>Hotline</h5>
+          <p>0925214746 / 0923309294<br>0920079895</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-card">
+          <i class="bi bi-envelope fs-2 text-gold"></i>
+          <h5>Email</h5>
+          <p>admissionknowledgeinstitute@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="info-card">
+          <i class="bi bi-calendar-check fs-2 text-gold"></i>
+          <h5>Intake</h5>
+          <p>May / July 2026</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== LATEST NEWS SECTION ========== -->
+<section class="news-section py-5">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Latest News</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="news-card-highlight">
+          <div class="news-badge">HOT NEWS</div>
+          <h3>May 2026 Intake Now Open!</h3>
+          <p>Applications are now open for our upcoming intake. Join our Health Sciences or Management Sciences programs and start your journey toward a successful career.</p>
+          <a href="admissions.html" class="btn-gold btn-sm">Apply Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROGRAMS PREVIEW ========== -->
+<section class="programs-preview py-5 bg-soft-light">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Our Academic Programs</h2>
+      <p>Choose your path to success</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6" data-aos="fade-up">
+        <div class="program-category-card health-bg">
+          <i class="bi bi-heart-pulse fs-1"></i>
+          <h3>Faculty of Health Sciences</h3>
+          <p>Nursing • Clinical Medicine • WASH</p>
+          <a href="courses.html" class="btn-outline-light-custom">Explore →</a>
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="program-category-card management-bg">
+          <i class="bi bi-briefcase fs-1"></i>
+          <h3>Faculty of Management Sciences</h3>
+          <p>HR • Public Admin • Logistics • Business Admin • Education</p>
+          <a href="courses.html" class="btn-outline-light-custom">Explore →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY CHOOSE KIST ========== -->
+<section class="why-choose py-5">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Why Choose KIST?</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-3 col-6" data-aos="fade-up">
+        <div class="feature-card-small">
+          <i class="bi bi-geo-alt"></i>
+          <h5>Convenient Locations</h5>
+          <p>Jebel/Mangateen.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="50">
+        <div class="feature-card-small">
+          <i class="bi bi-laptop"></i>
+          <h5>Flexible Learning</h5>
+          <p>On-Campus & Distance Learning</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature-card-small">
+          <i class="bi bi-people"></i>
+          <h5>Inclusive Community</h5>
+          <p>Including Students support</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="feature-card-small">
+          <i class="bi bi-trophy"></i>
+          <h5>Practical Training</h5>
+          <p>Real-world skills development</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PARTNER & AFFILIATION SECTION ========== -->
+<section class="partners-section py-5 bg-soft-light">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Our Partner & Affiliation</h2>
+      <p class="section-subtitle">Building excellence through trusted national and regional collaborations.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6" data-aos="fade-up">
+        <div class="partner-card text-center">
+          <div class="partner-images">
+            <img src="images/ayii.jpeg" alt="Prof. Dr. Isaac Ayii" class="partner-profile-img" onerror="this.src='https://placehold.co/100x100?text=Prof.+Isaac'">
+            <img src="images/au.jfif" alt="Ayii University Logo" class="partner-logo-img" onerror="this.src='https://placehold.co/80x80?text=Ayii'">
+          </div>
+          <h4>Prof. Dr. Isaac Ayii</h4>
+          <h6>Chancellor and The Founder Of Ayii University</h6>
+          <p class="partner-role">Ayii University - Partner</p>
+          <p>A strategic academic partner, contributing to knowledge exchange, institutional development, and shared educational goals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 text-center" data-aos="fade-up">
+        <div class="partner-closing">
+          <p class="lead fw-semibold">These partnerships strengthen our commitment to delivering education that is credible, competitive, and globally aligned.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CAMPUS LIFE GALLERY SECTION ========== -->
+<section class="gallery-section py-5">
+  <div class="container">
+    <div class="section-head text-center mb-5" data-aos="fade-up">
+      <h2>Campus Life at KIST</h2>
+      <p class="section-subtitle">Experience a dynamic environment where learning meets opportunity.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-easel fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Classroom Experience</h5>
+            <p>Interactive lectures designed to build strong academic foundations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-hospital fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Health Science Practical Training</h5>
+            <p>Hands-on clinical training preparing students for real-world healthcare environments.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-people-fill fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Student Engagement</h5>
+            <p>A vibrant community encouraging collaboration and teamwork.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-building fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Campus Environment (Jebel)</h5>
+            <p>A welcoming and accessible learning space in the heart of Juba.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-chat-dots fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Group Learning & Discussions</h5>
+            <p>Students working together to solve real-world challenges.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-person-check fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Administrative Support</h5>
+            <p>Dedicated staff providing guidance from admission to graduation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-book-half fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Library & Study Spaces</h5>
+            <p>Quiet and resourceful environments for focused academic success.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="350">
+        <div class="gallery-card">
+          <div class="gallery-image-placeholder">
+            <i class="bi bi-globe2 fs-1 text-gold"></i>
+          </div>
+          <div class="gallery-caption">
+            <h5>Inclusive Learning Community</h5>
+            <p>Supporting students from diverse backgrounds, including outreach programs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 text-center" data-aos="fade-up">
+        <div class="gallery-closing">
+          <p class="lead fw-semibold">At KIST, every moment on campus is an opportunity to grow, connect, and succeed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA SECTION ========== -->
+<section class="cta-banner">
+  <div class="container text-center">
+    <h2>Ready to Start Your Journey?</h2>
+    <p class="lead">Join KIST today and build your future career</p>
+    <a href="admissions.html" class="btn-gold btn-lg me-3">Apply Now <i class="bi bi-arrow-right"></i></a>
+    <a href="contact.html" class="btn-outline-light-custom">Contact Us</a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <h5>Knowledge Institute of Science & Technology</h5>
+        <p>Providing quality education in Health and Management Sciences.</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/nextstep211" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5>For Students</h5>
+        <ul>
+          <li><a href="academic.html">Academic Programs</a></li>
+          <li><a href="#">Scholarships</a></li>
+          <li><a href="#">Student Portal</a></li>
+          <li><a href="mailto:partnerkist@gmail.com?subject=Donation%20Inquiry" class="donation-link"><i class="bi bi-heart-fill text-gold me-2"></i>Make a Donation</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mb-4">
+        <h5>Contact Info</h5>
+        <ul class="contact-list">
+          <li><i class="bi bi-telephone"></i> 0925214746 / 0923309294 / 0920079895</li>
+          <li><i class="bi bi-envelope"></i> admissionknowledgeinstitute@gmail.com</li>
+          <li><i class="bi bi-geo-alt"></i> Jebel, Near Revenue Authority, Juba, South Sudan</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p>© 2026 Knowledge Institute of Science & Technology. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+<script>
+  AOS.init({ duration: 800, once: true });
+
+  // ========== BACKGROUND IMAGE SLIDER ==========
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.hero-slider .slide');
+  const dots = document.querySelectorAll('.slider-dots .dot');
+  let slideInterval;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (dots[i]) dots[i].classList.remove('active');
+    });
+    slides[index].classList.add('active');
+    if (dots[index]) dots[index].classList.add('active');
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    let next = (currentSlide + 1) % slides.length;
+    showSlide(next);
+  }
+
+  function startSlider() {
+    if (slideInterval) clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, 5000);
+  }
+
+  function stopSlider() {
+    clearInterval(slideInterval);
+  }
+
+  if (slides.length > 0) {
+    startSlider();
+    
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        stopSlider();
+        showSlide(index);
+        startSlider();
+      });
+    });
+    
+    const heroSection = document.querySelector('.hero-section');
+    heroSection.addEventListener('mouseenter', stopSlider);
+    heroSection.addEventListener('mouseleave', startSlider);
+  }
+</script>
+</body>
+</html>
